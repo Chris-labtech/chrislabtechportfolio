@@ -8,3 +8,9 @@
 
  Please see so of my past work, and contact details to follow.
 
+My work will start in the following stages...
+
+1. HTML
+2. CSS
+3. JavaScript
+
