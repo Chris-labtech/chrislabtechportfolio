@@ -18,3 +18,7 @@ My work will start in the following stages...
     2.1.3. Bootstrap
 3. JavaScript
 
+Porssible Projects 
+1. Website
+2. Password
+3. Inclue Python based Projects
