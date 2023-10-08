@@ -21,4 +21,5 @@ My work will start in the following stages...
 Porssible Projects 
 1. Website
 2. Password
-3. Inclue Python based Projects
+3. Include Python based Projects
+4. Include Apps (Andriod Studio)
