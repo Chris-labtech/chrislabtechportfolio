@@ -1,13 +1,35 @@
 /* This is the StyleSheet for the following Wesbite 'www.xxx.com'
 */
-
-.header-container{
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    background-color: red;
+.header-containerflex-container {
+    /* We first create a flex layout context */
+    display: inline-flex;
+  
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    flex-flow: row wrap;
+  
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
 }
 
+.parent {
+    display: inline-flex;
+    height: 300px; /* Or whatever */
+  }
+  
+  .child {
+    width: 100px;  /* Or whatever */
+    height: 100px; /* Or whatever */
+    margin: auto;  /* Magic! */
+  }
+
+
+
+/*
 .background-art{
     opacity: 0.9;
     position: absolute;
@@ -15,10 +37,7 @@
     width: 100%;
     }
 
-h1{
-    color: red;
-}
-/*
+
 1. For Future Updates to accomodate viewing for different devices.
 
 'media query' definitations
