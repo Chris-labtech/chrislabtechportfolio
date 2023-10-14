@@ -1,10 +1,74 @@
-.background-art{
-    /*Transparency*/
-    opacity: 0.95;
-}
+/* This is the StyleSheet for the following Wesbite 'www.xxx.com'
+*/
 
-/*Start of CSS for Header Setion*/
 .header-container{
-
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
 }
 
+.background-art{
+    opacity: 0.9;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    }
+
+h1{
+    color: red;
+}
+/*
+1. For Future Updates to accomodate viewing for different devices.
+
+'media query' definitations
+Mobile Devices: 319px — 480px
+iPads and Tablets: 481px — 1200px
+Laptops: 1201px — 1600px
+Desktops: 1601px and more 
+
+body {
+
+    .background-art{
+        opacity: 0.95;
+        position: absolute;
+        }
+
+    }
+
+@media (min-width: 319px) and (max-width: 480px) {
+    body {
+        .background-art{
+            opacity: 0.8;
+            position: absolute;
+            }
+        }
+    }
+
+  @media (min-width: 481px) and (max-width: 1200px) {
+    body {
+        .background-art{
+            opacity: 0.5;
+            position: absolute;
+            }
+        } 
+    }  
+
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    body {
+        .background-art{
+            opacity: 0.3;
+            position: absolute;
+            }
+        } 
+    }
+
+  @media (min-width: 1601px) {
+    body {
+        .background-art{
+            opacity: 0.1;
+            position: absolute;
+            }
+        }
+    }
+*/
