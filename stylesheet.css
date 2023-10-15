@@ -1,31 +1,16 @@
 /* This is the StyleSheet for the following Wesbite 'www.xxx.com'
 */
-.header-containerflex-container {
-    /* We first create a flex layout context */
+.header-container {
     display: inline-flex;
-  
-    /* Then we define the flow direction 
-       and if we allow the items to wrap 
-     * Remember this is the same as:
-     * flex-direction: row;
-     * flex-wrap: wrap;
-     */
-    flex-flow: row wrap;
-  
-    /* Then we define how is distributed the remaining space */
-    justify-content: space-around;
+    flex-direction: row;
+    gap: 50px
 }
-
-.parent {
-    display: inline-flex;
-    height: 300px; /* Or whatever */
-  }
-  
-  .child {
-    width: 100px;  /* Or whatever */
-    height: 100px; /* Or whatever */
-    margin: auto;  /* Magic! */
-  }
+.header-container-left{
+    flex: 2;
+}
+.header-container-right{
+    flex: 3;
+}
 
 
 
