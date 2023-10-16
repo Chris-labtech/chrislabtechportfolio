@@ -1,78 +1,29 @@
-/* This is the StyleSheet for the following Wesbite 'www.xxx.com'
-*/
-.header-container {
-    display: inline-flex;
-    flex-direction: row;
-    gap: 50px
-}
-.header-container-left{
-    flex: 2;
-}
-.header-container-right{
-    flex: 3;
+.header {
+    padding: 10px; /* Add padding for spacing */
 }
 
+.container {
+    
+}
 
+.column {
+    display: inline-block; /* Use display:inline-block to align content horizontally */
+    width: 48%; /* Set the width for both columns, you can adjust this as needed */
+    padding: 10px; /* Add padding for spacing within columns */
+}
 
-/*
-.background-art{
-    opacity: 0.9;
-    position: absolute;
-    height: 100%;
+.left {
+    text-align: left; /* Justify content to the left in the left column */
+}
+
+.right {
+    text-align: right; /* Justify content to the right in the right column */
+}
+
+body{
+    background-image: url('./FrontEnd/HomePage/Assets/Christopher\ Tugwell\ -\ Seascape\ with\ Fisherman.png');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    height: 150vh;
     width: 100%;
-    }
-
-
-1. For Future Updates to accomodate viewing for different devices.
-
-'media query' definitations
-Mobile Devices: 319px — 480px
-iPads and Tablets: 481px — 1200px
-Laptops: 1201px — 1600px
-Desktops: 1601px and more 
-
-body {
-
-    .background-art{
-        opacity: 0.95;
-        position: absolute;
-        }
-
-    }
-
-@media (min-width: 319px) and (max-width: 480px) {
-    body {
-        .background-art{
-            opacity: 0.8;
-            position: absolute;
-            }
-        }
-    }
-
-  @media (min-width: 481px) and (max-width: 1200px) {
-    body {
-        .background-art{
-            opacity: 0.5;
-            position: absolute;
-            }
-        } 
-    }  
-
-  @media (min-width: 1201px) and (max-width: 1600px) {
-    body {
-        .background-art{
-            opacity: 0.3;
-            position: absolute;
-            }
-        } 
-    }
-
-  @media (min-width: 1601px) {
-    body {
-        .background-art{
-            opacity: 0.1;
-            position: absolute;
-            }
-        }
-    }
-*/
+}
