@@ -1,29 +1,37 @@
+/* Section 1 */
 .header {
-    padding: 10px; /* Add padding for spacing */
-}
-
-.container {
-    
+    display: flex;
+    justify-content: space-between;
+    background-color: #333; /* Set a background color for the header */
+    color: white; /* Set text color */
+    padding: 10px;
 }
 
 .column {
-    display: inline-block; /* Use display:inline-block to align content horizontally */
-    width: 48%; /* Set the width for both columns, you can adjust this as needed */
-    padding: 10px; /* Add padding for spacing within columns */
+    flex: 1;
+    padding: 10px;
 }
 
 .left {
-    text-align: left; /* Justify content to the left in the left column */
+    text-align: left;
 }
 
 .right {
-    text-align: right; /* Justify content to the right in the right column */
+    text-align: right;
 }
 
-body{
+/* Images */
+.background-image1 {
     background-image: url('./FrontEnd/HomePage/Assets/Christopher\ Tugwell\ -\ Seascape\ with\ Fisherman.png');
-    background-size: cover; /* Adjust as needed */
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 150vh;
+    background-attachment: fixed;
+    height: 200vh;
     width: 100%;
+}
+.background-image2 {
+    background-image: url('./FrontEnd/HomePage/Assets/Image\ 1.png');
+}
+.background-image3 {
+    background-image: url('./FrontEnd/HomePage/Assets/Image\ 2.png');
 }
